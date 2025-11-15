@@ -152,12 +152,12 @@
 	(net 22 "unconnected-(U1-RST-Pad22)")
 	(net 23 "unconnected-(U1-D14-Pad15)")
 	(net 24 "unconnected-(U1-D15-Pad16)")
-	(footprint "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical"
+	(footprint "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical_Hole"
 		(layer "F.Cu")
 		(uuid "332b9920-e91f-4a45-953a-e9fe0a240d00")
 		(at 106.76 66.15)
-		(descr "Potentiometer, vertical, Piher PT-10-V10, http://www.piher-nacesa.com/pdf/12-PT10v03.pdf")
-		(tags "Potentiometer vertical Piher PT-10-V10")
+		(descr "Potentiometer, vertical, shaft hole, Piher PT-10-V10, http://www.piher-nacesa.com/pdf/12-PT10v03.pdf")
+		(tags "Potentiometer vertical hole Piher PT-10-V10")
 		(property "Reference" "RV1"
 			(at 5 -9.05 0)
 			(layer "F.SilkS")
@@ -218,7 +218,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cee614fd-992b-46bd-a32e-919ea71b3d9d")
+			(uuid "f413a674-f227-40dc-8d61-0120ff503d9e")
 		)
 		(fp_arc
 			(start 0.96 -6.019)
@@ -229,7 +229,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5a976fdf-7a30-491a-bc2b-219bffd2dcb6")
+			(uuid "5757e839-815d-4511-bfcb-4f17c2f0d0c0")
 		)
 		(fp_arc
 			(start 10.027 -1.1)
@@ -240,7 +240,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ada33908-5b56-41e8-91ab-4d78757a308a")
+			(uuid "2fdc8f85-d513-481e-a864-d4bcb0f6e82b")
 		)
 		(fp_rect
 			(start -1.42 -8.05)
@@ -251,18 +251,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "9d529459-dace-4558-8f2d-dfc27967d196")
-		)
-		(fp_circle
-			(center 5 -2.65)
-			(end 6.5 -2.65)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "6cf976f9-ada1-4afd-8b69-5ae639d6c6ac")
+			(uuid "b3b99fa1-81d8-4f86-8e0f-bd49734b204e")
 		)
 		(fp_circle
 			(center 5 -2.65)
@@ -273,7 +262,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a4c459d5-a27b-49a9-88cf-d662c4c7e658")
+			(uuid "9e7b1f2a-cf3d-4cdf-9d66-63836f1e495c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 1.05 -2.65 90)
@@ -285,6 +274,13 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(pad "" np_thru_hole circle
+			(at 5 -2.65)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3c2cc340-1312-44e7-9393-bf076d7b32b3")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -320,7 +316,7 @@
 			(uuid "4c857cba-e4ff-4ed8-9b9c-08904edbf96b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-V10_Vertical.step"
+		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-V10_Vertical_Hole.step"
 			(offset
 				(xyz 0 0 0)
 			)

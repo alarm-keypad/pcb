@@ -35,3 +35,7 @@ make its integration clean.
 
 Arduino Pro Micro KiCAD files can be downloaded
 [from this GitHub repository](https://github.com/g200kg/kicad-lib-arduino).
+
+Piher PT-10 potentiometer 3D model can be downloaded
+[from grabcad](https://grabcad.com/library/piher-pt-10-1).
+Its scale has to be divided by 10.
