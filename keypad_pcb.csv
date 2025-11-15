@@ -1,0 +1,29 @@
+"Source:","/home/mathieu/Documents/HomeAssistant/keypad/cad/keypad_pcb/keypad_pcb.kicad_sch"
+"Date:","ven. 07 avril 2023 15:16:09"
+"Tool:","Eeschema (6.0.9)"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","8"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","A1","Arduino_Nano_v3.x","MCU_Module:Arduino_Nano_v3.x","Module:Arduino_Nano","http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
+"","","BZ1","Buzzer","Device:Buzzer","Buzzer_Beeper:Buzzer_12x9.5RM7.6","~"
+"","","Ext1","Conn_01x08","Connector_Generic:Conn_01x08","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","~"
+"","","Keypad1","Conn_01x08","Connector_Generic:Conn_01x08","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","~"
+"","","LED1","Conn_01x02","Connector_Generic:Conn_01x02","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","~"
+"","","LED2","Conn_01x02","Connector_Generic:Conn_01x02","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","~"
+"","","R1","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","RV1","R_Potentiometer","Device:R_Potentiometer","Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical","~"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","1","A1","Arduino_Nano_v3.x","MCU_Module:Arduino_Nano_v3.x","Module:Arduino_Nano","http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
+"2","1","BZ1","Buzzer","Device:Buzzer","Buzzer_Beeper:Buzzer_12x9.5RM7.6","~"
+"3","2","Ext1, Keypad1","Conn_01x08","Connector_Generic:Conn_01x08","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","~"
+"4","2","LED1, LED2","Conn_01x02","Connector_Generic:Conn_01x02","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","~"
+"5","1","R1","R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"6","1","RV1","R_Potentiometer","Device:R_Potentiometer","Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical","~"

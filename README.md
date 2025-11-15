@@ -11,7 +11,7 @@ You can find a firmware designed to run on this board [on the dedicated reposito
 - Resistor for LEDs (value depends on wanted brightness)
 - Buzzer (model depends of wanted sound)
 - Potentiometer for buzzer (to set sound level)
-- Arduino Nano
+- Arduino Pro Micro (5V)
 - 2x JST connector 1x02 2.50mm pitch (for case mounted LED)
 - 2x 2.54mm 8 pins female connectors
 
@@ -30,3 +30,8 @@ See [drill and cut file](integration/keypad_drill_cut.pdf) to prepare the case.
 Then you can use [this 3D printable border](integration/keypad_border.stl) to
 make its integration clean.
 ![Integration result](integration/result.webp)
+
+## KiCAD project
+
+Arduino Pro Micro KiCAD files can be downloaded
+[from this GitHub repository](https://github.com/g200kg/kicad-lib-arduino).
