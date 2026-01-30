@@ -1,2 +1,6 @@
+1.2 - 2026/01/30
+- Rework for Arduino Pro Micro
+- Update potentiometer to add PCB hole and integrate 3D shape
+
 1.1 - 2023/07/28
 - First release
