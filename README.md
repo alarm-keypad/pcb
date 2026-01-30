@@ -9,7 +9,7 @@ You can find a firmware designed to run on this board [on the dedicated reposito
 ## Required parts
 
 - Resistor for LEDs (value depends on wanted brightness)
-- Buzzer (model depends of wanted sound)
+- Buzzer (active, 5V, model depends of wanted sound)
 - Potentiometer for buzzer (to set sound level)
 - Arduino Pro Micro (5V)
 - 2x JST connector 1x02 2.50mm pitch (for case mounted LED)
